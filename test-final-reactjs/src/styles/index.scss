@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+  display: block;
+}
+
+// HEADER 
+header {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  .navbar {
+    .navbar-nav {
+      display: flex;
+      column-gap: 70px;
+      flex-direction: row;
+      list-style-type: none;
+      .nav-item {
+        .nav-link {
+          color: black;
+          font-weight: bold;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+// FOOTER
+footer {
+  left: 50%;
+  bottom: -1%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  .copy {
+    font-size: 1.4em;
+    font-weight: bold;
+  }
+}

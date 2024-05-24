@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+  display: block;
+}
+
+header {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+header .navbar .navbar-nav {
+  display: flex;
+  -moz-column-gap: 70px;
+       column-gap: 70px;
+  flex-direction: row;
+  list-style-type: none;
+}
+header .navbar .navbar-nav .nav-item .nav-link {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+footer {
+  left: 50%;
+  bottom: -1%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+footer .copy {
+  font-size: 1.4em;
+  font-weight: bold;
+}/*# sourceMappingURL=index.css.map */
